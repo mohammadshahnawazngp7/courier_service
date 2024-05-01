@@ -19,8 +19,11 @@ Applicable for packages with a distance between 50-250km and a weight between 10
 ### Solution Approach
 The solution is implemented as a command-line application in Ruby on Rails. It calculates the total delivery cost for each package considering the base delivery cost, package weight, and distance to the destination. It also applies any applicable discounts based on the offer codes provided.
 
-# installation
+# Installation    
+Set up the project    
 
+### Clone the repository:     
+`git clone https://github.com/mohammadshahnawazngp7/courier_service.git`      
 ### Change into the project directory:   
 `cd courier_service`
 
@@ -53,7 +56,7 @@ or
 
 ## Run command line interface application:  
 
-Create `delivery_cost_estimation` file in this path bin/delivery_cost_estimation and the below content.   
+Create `delivery_cost_estimation` file in this path bin/delivery_cost_estimation and add the below content.   
 
 
 #!/usr/bin/env ruby  
